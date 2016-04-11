@@ -1,0 +1,47 @@
+\apaappfig
+\setcounter{appendix}{0}
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[h] %  figure placement: here, top, bottom, or page
+\includegraphics[width=3in]{Figure1.jpg}
+     \label{sheridan}
+\caption{The figure (taken from Sheridan, 2013, page 27) shows the distributions of first-fixation duration on target words in the low and high predictability conditions in the top panel, and the survival curves in the bottom panel. The row of points at the top of the survival curves indicates the time bins with a significant difference between the low and high predictability curves using the method being examined in the present note}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[p] %  figure placement: here, top, bottom, or page
+\includegraphics[width=3in]{Figure2.pdf}
+    \label{fig:mu}
+\caption{The figure shows the cumulative density functions generated with an ex-Gaussian distribution in which there are effects on $\mu$}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[h] %  figure placement: here, top, bottom, or page
+\includegraphics[width=3in]{Figure3.pdf}
+\label{fig:tau}
+\caption{The figure shows the cumulative density functions generated with an ex-Gaussian distribution in which there are effects on $\tau$}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[h] %  figure placement: here, top, bottom, or page
+\includegraphics[width=3in]{Figure5.pdf}
+\label{fig:sim2}
+\caption{The figure shows average diverge point for simulation 2. }
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[h] %  figure placement: here, top, bottom, or page
+\includegraphics[width=3in]{Figure6.pdf}
+\label{fig:sim3}
+\caption{The figure shows average diverge point for simulation 3. }
+\end{figure*}
+\efloatseparator
+ 

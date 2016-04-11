@@ -1,0 +1,38 @@
+\apaappfig
+\setcounter{appendix}{0}
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[h] %  figure placement: here, top, bottom, or page
+\includegraphics[width=3in]{Figure1.jpg}
+\caption{The figure (taken from Sheridan, 2013, p. 27) shows the distributions of first-fixation duration on target words in the low and high predictability conditions in the top panel, and the survival curves in the bottom panel. The row of points at the top of the survival curves indicates the time bins with a significant difference between the low and high predictability curves using the method being examined in the present note}
+     \label{sheridan}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[h] %  figure placement: here, top, bottom, or page
+\includegraphics[width=5in]{xfig.pdf}
+\caption{The figure shows the density, cumulative density function and survival function of two distributions. The difference between the two distributions (the simulated effect) is in the rate ($\tau$) parameter of exponential component.}
+\label{fig:x}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[h] %  figure placement: here, top, bottom, or page
+\includegraphics[width=5in]{x2mu.pdf}
+\caption{The figure shows the density, cumulative density function and survival function of two distributions. The difference between the two distributions (the simulated effect) is in the rate ($\mu$) parameter of Gaussian component.}
+\label{fig:mu}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[ht]
+\ifnextchar[{\eatarg}{}
+[h] %  figure placement: here, top, bottom, or page
+\includegraphics[width=5in]{contrived.pdf}
+\caption{The figure shows the density, cumulative density function and survival function of two distributions in which there is a divergence point (525 ms; the location of the vertical lines in Panels B and C)}
+\label{fig:contrived}
+\end{figure*}
+\efloatseparator
+ 
